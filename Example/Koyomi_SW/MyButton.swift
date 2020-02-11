@@ -12,14 +12,14 @@ class MyButton: UIButton {
     var color: UIColor = .blue {
         didSet {
             layer.borderColor = color.cgColor
-            setTitleColor(color, for: UIControlState())
+            setTitleColor(color, for: UIControl.State())
         }
     }
     var deepColor: UIColor = .white {
         didSet {
             layer.borderColor = deepColor.cgColor
             backgroundColor = deepColor
-            setTitleColor(.white, for: UIControlState())
+            setTitleColor(.white, for: UIControl.State())
         }
     }
     
