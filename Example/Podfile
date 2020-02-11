@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Koyomi_SW_Example' do
+  pod 'Koyomi_SW', :path => '../'
+
+  target 'Koyomi_SW_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
