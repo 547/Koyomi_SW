@@ -1,0 +1,6 @@
+framework module Koyomi_SW {
+  umbrella header "Koyomi_SW-umbrella.h"
+
+  export *
+  module * { export * }
+}

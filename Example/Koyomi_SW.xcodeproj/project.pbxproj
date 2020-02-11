@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0C2ED6401F94FE704074ECA4 /* Pods-Koyomi_SW_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koyomi_SW_Example.release.xcconfig"; path = "Target Support Files/Pods-Koyomi_SW_Example/Pods-Koyomi_SW_Example.release.xcconfig"; sourceTree = "<group>"; };
-		140178325F9568FACCDAF8BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		140178325F9568FACCDAF8BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2110FAAA2E7CABCD4A9123E1 /* Pods-Koyomi_SW_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koyomi_SW_Example.debug.xcconfig"; path = "Target Support Files/Pods-Koyomi_SW_Example/Pods-Koyomi_SW_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		52A21E037AE546CED5D29720 /* Pods-Koyomi_SW_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koyomi_SW_Tests.release.xcconfig"; path = "Target Support Files/Pods-Koyomi_SW_Tests/Pods-Koyomi_SW_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Koyomi_SW_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Koyomi_SW_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D7C7E795E67BDE55002026B /* Pods_Koyomi_SW_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koyomi_SW_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E79DF47A5F43BC9526E3C6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8E79DF47A5F43BC9526E3C6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		98F04C4E30154BF57FD86D06 /* Pods_Koyomi_SW_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Koyomi_SW_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E265147286C1903EC9A930CD /* Koyomi_SW.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Koyomi_SW.podspec; path = ../Koyomi_SW.podspec; sourceTree = "<group>"; };
+		E265147286C1903EC9A930CD /* Koyomi_SW.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Koyomi_SW.podspec; path = ../Koyomi_SW.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EA05256A959D64FDEF7CBB57 /* Pods-Koyomi_SW_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koyomi_SW_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Koyomi_SW_Tests/Pods-Koyomi_SW_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				EA05256A959D64FDEF7CBB57 /* Pods-Koyomi_SW_Tests.debug.xcconfig */,
 				52A21E037AE546CED5D29720 /* Pods-Koyomi_SW_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

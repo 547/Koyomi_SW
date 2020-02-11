@@ -1,0 +1,6 @@
+framework module Pods_Koyomi_SW_Example {
+  umbrella header "Pods-Koyomi_SW_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
