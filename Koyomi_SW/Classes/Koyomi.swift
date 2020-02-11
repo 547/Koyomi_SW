@@ -241,7 +241,7 @@ final public class Koyomi: UICollectionView {
     public var weekPosition: ContentPosition = .center
     
     // Week cell text
-    public var weeks: (String, String, String, String, String, String, String) {
+    public var weeks: (String, String, String, String, String, String, String){
         get {
             return model.weeks
         }
